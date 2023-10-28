@@ -1,3 +1,4 @@
+
 import DisplayEmployee from './components/DisplayEmployee';
 import './App.css'
 
@@ -26,6 +27,7 @@ function App() {
   return (
     <>
        <DisplayEmployee employee={sampleEmployee} /> 
+       
       
      </>
   )
