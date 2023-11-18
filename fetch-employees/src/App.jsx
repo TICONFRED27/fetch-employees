@@ -1,33 +1,8 @@
-import {} from "react";
-import DisplayEmployee from "./components/DisplayEmployee";
-import "./App.css";
+// eslint-disable-next-line no-unused-vars
+import { react } from "react";
 
 function App() {
-  const sampleEmployee = {
-    gender: "male",
-    name: {
-      first: "Charlie",
-      last: "Thompson",
-    },
-    location: {
-      street: {
-        number: 761,
-        name: "Tay Street",
-      },
-      city: "Timaru",
-      postcode: 76111,
-    },
-    email: "charlie.thompson@example.com",
-    picture: {
-      medium: "https://randomuser.me/api/portraits/med/men/40.jpg",
-    },
-  };
-
-  return (
-    <>
-      <DisplayEmployee employee={sampleEmployee} />
-    </>
-  );
+  return <></>;
 }
 
 export default App;
