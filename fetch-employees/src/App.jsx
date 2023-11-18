@@ -1,8 +1,13 @@
 // eslint-disable-next-line no-unused-vars
 import { react } from "react";
+import MyTitle from "./components/MyTitle";
 
 function App() {
-  return <></>;
+  return (
+    <>
+      <MyTitle />
+    </>
+  );
 }
 
 export default App;
