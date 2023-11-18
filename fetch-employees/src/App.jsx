@@ -1,36 +1,33 @@
-
-import DisplayEmployee from './components/DisplayEmployee';
-import './App.css'
+import {} from "react";
+import DisplayEmployee from "./components/DisplayEmployee";
+import "./App.css";
 
 function App() {
   const sampleEmployee = {
-    gender: 'male',
+    gender: "male",
     name: {
-      first: 'Charlie',
-      last: 'Thompson',
+      first: "Charlie",
+      last: "Thompson",
     },
     location: {
       street: {
         number: 761,
-        name: 'Tay Street',
+        name: "Tay Street",
       },
-      city: 'Timaru',
+      city: "Timaru",
       postcode: 76111,
     },
-    email: 'charlie.thompson@example.com',
+    email: "charlie.thompson@example.com",
     picture: {
-      medium: 'https://randomuser.me/api/portraits/med/men/40.jpg',
+      medium: "https://randomuser.me/api/portraits/med/men/40.jpg",
     },
   };
 
-  
   return (
     <>
-       <DisplayEmployee employee={sampleEmployee} /> 
-       
-      
-     </>
-  )
+      <DisplayEmployee employee={sampleEmployee} />
+    </>
+  );
 }
 
-export default App
+export default App;
